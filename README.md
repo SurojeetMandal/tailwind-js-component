@@ -12,16 +12,27 @@
         <th>File Name </th>
         <th>URL</th>
         <th>Language Includes</th>
+        <th>Short Descripton</th>
       </tr>
       </thead>
       <tbody>
       <tr >
-        <th colspan = "3" style = "text-align:center">Folder Name: Accordion</th>
+        <th colspan = "4" style = "text-align:center">Folder Name: Accordion</th>
       </tr>
       <tr>
         <td style="border: 1px solid">Accordion-1</td>
-        <td style ="border:1px solid"><a href = "https://surojeet-tailwind-js.netlify.app/accordion/accordion1">Preview</a></td>
+        <td style ="border:1px solid"><a href = "https://surojeet.netlify.app/accordion/accordion1">Preview</a></td>
         <td style="border: 1px solid">Tailwind & Javascript</td>
+        <td style="border: 1px solid">
+            <ul> 
+                <li>Responsive (mobile + desktop)</li>
+                <li>2 columns, modern look</li>
+                <li>Hover effects</li>
+                 <li>Click to show/hide</li>
+                <li>One section open at a time</li>
+                <li>Smooth animations & arrows</li>
+            </ul>
+        </td>
       </tr>
       <tbody>
 </table>
