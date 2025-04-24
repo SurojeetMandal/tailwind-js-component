@@ -1,23 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accordion 2</title>
-    <link rel="stylesheet" href="/dist/output.css">
-    <!-- If you want to use Tailwind CSS in your project without installing, use the link given below. -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
-  </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accordion 2</title>
+  <link rel="stylesheet" href="/dist/output.css">
+  <!-- If you want to use Tailwind CSS in your project without installing, use the link given below. -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+</head>
+
 <body>
-    <section class="py-16 mx-4 border">
-      <div class="text-center">
-        <div class="">
-          <h1 class="text-2xl lg:text-6xl font-semibold leading-tight">Frequently Asked Questions</h1>
-          <p class="mt-2 lg:mt-4 max-w-2xl text-gray-600 mx-auto px-10">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
-        </div>
+  <section class="py-10 mx-6">
+    <div class="text-center sm:mt-3 lg:mt-4 xl:mt-5">
+      <div class="">
+        <h1
+          class="text-2xl sm:text-4xl lg:text-5xl xl:text-6xl font-semibold leading-tight [@media_screen_and_(min-width:440px)_and_(max-width:639px)]:text-3xl ">
+          Frequently Asked Questions</h1>
+        <p class="mt-2 lg:mt-4 max-w-2xl text-gray-700 mx-auto px-9 text-center font-mono">With lots of unique blocks,
+          you can easily build a page without coding. Build your next landing page.</p>
       </div>
-    
-</head>
+    </div>
+
+    <!-- Accordion Start -->
+    <div class="md:max-w-2xl lg:max-w-4xl  mx-auto mt-11">
+      <div
+        class="shadow-[0px_7px_29px_0px_rgba(100,100,111,0.2)] rounded-lg py-2 sm:py-3 md:py-4 lg:py-5 px-3 sm:px-5  ring ring-gray-400 cursor-pointer mb-3 sm:mb-5 accordion-header hover:bg-gray-50">
+        <div class="flex justify-between items-center">
+          <h1 class="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 hover:text-gray-800">"Bg-gradient-to-r"
+            Tailwind me kya karta hai?
+          </h1>
+          <div class="text-3xl">
+            <span class="positive ">+</span>
+            <span class="hidden negative">-</span>
+          </div>
+        </div>
+        <hr class="mt-2 border-gray-400 hidden hr-line">
+        <p class=" text-black transition-all duration-700  text-justify ease-in h-0 truncate accordion-para">Ye Tailwind
+          ki utility class hai jo left
+          se right direction me gradient background apply karti hai. Iske
+          saath from-*, via-*, aur to-* classes use karke colors define karte hain</p>
+      </div>
+      <div
+        class="shadow-[0px_7px_29px_0px_rgba(100,100,111,0.2)] rounded-lg py-2 sm:py-3 md:py-4 lg:py-5 px-3 sm:px-5  ring ring-gray-400 cursor-pointer mb-3 sm:mb-5 accordion-header hover:bg-gray-50">
+        <div class="flex justify-between items-center">
+          <h1 class="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 hover:text-gray-800">"Bg-gradient-to-r"
+            Tailwind me kya karta hai?
+          </h1>
+          <div class="text-3xl">
+            <span class="positive ">+</span>
+            <span class="hidden negative">-</span>
+          </div>
+        </div>
+        <hr class="mt-2 border-gray-400 hidden hr-line">
+        <p class=" text-black transition-all duration-700  text-justify ease-in h-0 truncate accordion-para">Ye Tailwind
+          ki utility class hai jo left
+          se right direction me gradient background apply karti hai. Iske
+          saath from-*, via-*, aur to-* classes use karke colors define karte hain</p>
+      </div>
+      <div
+        class="shadow-[0px_7px_29px_0px_rgba(100,100,111,0.2)] rounded-lg py-2 sm:py-3 md:py-4 lg:py-5 px-3 sm:px-5  ring ring-gray-400 cursor-pointer mb-3 sm:mb-5 accordion-header hover:bg-gray-50">
+        <div class="flex justify-between items-center">
+          <h1 class="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 hover:text-gray-800">"Bg-gradient-to-r"
+            Tailwind me kya karta hai?
+          </h1>
+          <div class="text-3xl">
+            <span class="positive ">+</span>
+            <span class="hidden negative">-</span>
+          </div>
+        </div>
+        <hr class="mt-2 border-gray-400 hidden hr-line">
+        <p class=" text-black transition-all duration-700  text-justify ease-in h-0 truncate accordion-para">Ye Tailwind
+          ki utility class hai jo left
+          se right direction me gradient background apply karti hai. Iske
+          saath from-*, via-*, aur to-* classes use karke colors define karte hain</p>
+      </div>
+      <div
+        class="shadow-[0px_7px_29px_0px_rgba(100,100,111,0.2)] rounded-lg py-2 sm:py-3 md:py-4 lg:py-5 px-3 sm:px-5  ring ring-gray-400 cursor-pointer mb-3 sm:mb-5 accordion-header hover:bg-gray-50">
+        <div class="flex justify-between items-center">
+          <h1 class="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 hover:text-gray-800">"Bg-gradient-to-r"
+            Tailwind me kya karta hai?
+          </h1>
+          <div class="text-3xl">
+            <span class="positive ">+</span>
+            <span class="hidden negative">-</span>
+          </div>
+        </div>
+        <hr class="mt-2 border-gray-400 hidden hr-line">
+        <p class=" text-black transition-all duration-700  text-justify ease-in h-0 truncate accordion-para">Ye Tailwind
+          ki utility class hai jo left
+          se right direction me gradient background apply karti hai. Iske
+          saath from-*, via-*, aur to-* classes use karke colors define karte hain</p>
+      </div>
+    </div>
+  </section>
+  </head>
+
+  <script>
+    const heads = document.querySelectorAll(".accordion-header");
+    const para = document.querySelectorAll(".accordion-para")
+    const negative = document.querySelectorAll(".negative")
+    const positive = document.querySelectorAll(".positive")
+    const hrline = document.querySelectorAll(".hr-line");
+
+    heads.forEach((head, index) => {
+      head.addEventListener("click", () => {
+
+        // Reset all accordion
+        para.forEach((b, idx) => {
+          if (idx !== index) {
+            b.classList.add("h-0", "truncate")
+            b.classList.remove("mt-3")
+            negative[idx].classList.add("hidden")
+            positive[idx].classList.remove("hidden")
+            hrline[idx].classList.add("hidden")
+          }
+        })
+        para[index].classList.toggle("h-0")
+        para[index].classList.toggle("truncate")
+        para[index].classList.toggle("mt-3")
+        positive[index].classList.toggle("hidden")
+        negative[index].classList.toggle("hidden")
+        hrline[index].classList.toggle('hidden')
+      })
+    })
+  </script>
 </body>
+
 </html>
